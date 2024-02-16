@@ -1,0 +1,59 @@
+*{
+    background-image: url("restaurent.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text{
+    color: white;
+    font-size: 40px;
+    margin-top:15px;
+    font-style:italic;
+    font-weight: 900;
+    text-align: center;
+}
+#cake{
+    width: 200px;
+    height: 200px;
+}
+button{
+    background: rgb(0, 164, 189);
+    color: white;
+    width: 100px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 4px;
+    text-align:center;
+    border-radius: 10px;
+    border: transparent;
+    height: 30px;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(0, 164, 189);
+    background: white;
+    border: 2px solid rgb(0, 164, 189);
+}
+button:focus{
+    color: rgb(0, 164, 189);
+    background: white;
+    border: 2px solid rgb(0, 164, 189);
+}
+.food{
+    color: white;
+    font-size: 30px;
+    font-style:italic;
+    margin-top: 30px;
+}
+.btn{
+    position: absolute;
+}
+img{
+    margin-left: 60px;
+    border-radius: 50%;
+}
+.food-img{
+    position: relative;
+    left: 100px;
+}
